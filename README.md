@@ -14,13 +14,16 @@ The project trains GPT-2  models (very small architecture) on Telugu text using 
 
 ```
 telugu_model/
-├── Tokenizer_Telugu.ipynb              # BPE tokenizer creation
-├── Telugu_Sentence_Scoring_2.ipynb     # Data preparation and curriculum creation
-├── training.ipynb.ipynb                # Model training and evaluation
-├── curriculum_runs_summary.csv         # Training results summary
-├── curriculum_perplexities.csv         # Perplexity metrics
-├── all_seeds_generation_results.csv   # Text generation results
-└── all_seeds_minimal_pairs.csv        # Minimal pair evaluation results
+├── README.md
+├── notebooks/
+│   ├── Tokenizer_Telugu.ipynb          # BPE tokenizer creation
+│   ├── Telugu_Sentence_Scoring_2.ipynb # Data preparation and curriculum creation
+│   └── training.ipynb                  # Model training and evaluation
+└── results/
+    ├── curriculum_runs_summary.csv     # Training results summary
+    ├── curriculum_perplexities.csv     # Perplexity metrics
+    ├── all_seeds_generation_results.csv # Text generation results
+    └── all_seeds_minimal_pairs.csv     # Minimal pair evaluation results
 ```
 
 
